@@ -2,7 +2,7 @@
 .result-box {
    width: 400px;
    height: 500px;
-   background-color: black;
+   background: linear-gradient(#DA0C81, #E95793);
    border-radius: 10%;
    margin-top: 130px;
    margin-left: 400px;
@@ -20,5 +20,5 @@
    justify-content: center;
    margin-top: 80px;
    margin-left: 100px;
-   background: linear-gradient(blue, pink);
+   background: #940B92;
 }
