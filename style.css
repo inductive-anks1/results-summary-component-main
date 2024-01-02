@@ -10,6 +10,7 @@
    font-size: 8px;
    display: flex;
    flex-direction: column;
+   box-shadow: 0 8px 15px rgba(218, 12, 129, 0.9)
 }
 
 h1{
@@ -69,6 +70,7 @@ h1{
    flex-direction: column;
    text-align: left;
    font-size: 30px;
+   box-shadow: 0 8px 15px rgba(218, 12, 129, 0.4)
 }
 
 body{
@@ -88,7 +90,7 @@ body{
 .reaction{
    width: 300px;
    height: 60px;
-   background-color: #ffcbcb73;
+   background-color: #ff3c3c1f;
    margin-left: 50px;
    border-radius: 20px;
    display: flex;
@@ -97,7 +99,7 @@ body{
 .memory{
    width: 300px;
    height: 60px;
-   background-color: #f2d88185;
+   background-color: #ffc8112b;
    margin-left: 50px;
    margin-top: 15px;
    border-radius: 20px;
@@ -107,7 +109,7 @@ body{
 .verbal{
    width: 300px;
    height: 60px;
-   background-color: #7fffbfab;
+   background-color: #00ff8021;
    margin-left: 50px;
    margin-top: 15px;
    border-radius: 20px;
@@ -117,7 +119,7 @@ body{
 .visual{
    width: 300px;
    height: 60px;
-   background-color: #5b69f269;
+   background-color: #0016ed26;
    margin-left: 50px;
    margin-top: 15px;
    border-radius: 20px;
@@ -175,4 +177,21 @@ icon img {
     font-size: 25px;
     margin-top: 15px;
     margin-left: 10px;
+}
+
+.button input[type="button"] {
+  width: 300px; /* Adjust the width as needed */
+  height: 60px; /* Adjust the height as needed */
+  margin-top: 40px;
+  margin-left: 50px;
+  border-radius: 80px;
+  font-size: 25px;
+  background-color: #323538;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.button input[type="button"]:hover {
+  /* Change the background color of the button on hover */
+  background-color: #da0c81;
 }
