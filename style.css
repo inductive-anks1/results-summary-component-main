@@ -162,3 +162,17 @@ icon img {
     margin-top: 15px;
     margin-left: 20px;
 }
+
+.marks-obtained{
+    color: black;
+    font-size: 25px;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+
+.total-marks{
+    color: black;
+    font-size: 25px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
